@@ -1,0 +1,16 @@
+[build]
+  command = "npm run build"
+  publish = ".next"
+
+[build.environment]
+  NODE_VERSION = "18"
+
+# Environment variables - Set these in Netlify dashboard or uncomment below
+# [context.production.environment]
+#   SMTP_HOST = "smtp.gmail.com"
+#   SMTP_PORT = "587"
+#   SMTP_SECURE = "false"
+#   SMTP_USER = "your-email@gmail.com"
+#   SMTP_PASS = "your-app-password"
+#   SMTP_FROM_EMAIL = "your-email@gmail.com"
+#   ADMIN_EMAIL = "admin@example.com"
